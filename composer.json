@@ -1,0 +1,6 @@
+{
+    "require": {
+        "debach/zend-mp3": "dev-master",
+        "stormiix/php-eyed3": "dev-master"
+    }
+}

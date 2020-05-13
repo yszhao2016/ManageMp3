@@ -1,0 +1,112 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "192a95bffb84ad5ed79df2ae23b0c5f0",
+    "packages": [
+        {
+            "name": "debach/zend-mp3",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/debach/zend-mp3.git",
+                "reference": "94b373039e5755160a6aa9b7eea14d931b0ccc74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/debach/zend-mp3/zipball/94b373039e5755160a6aa9b7eea14d931b0ccc74",
+                "reference": "94b373039e5755160a6aa9b7eea14d931b0ccc74",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zend_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sven Vollbehr"
+                }
+            ],
+            "description": "The best PHP library for Object-Oriented media file information reading and writing.",
+            "homepage": "https://code.google.com/p/php-reader/",
+            "time": "2019-03-15T20:27:54+00:00"
+        },
+        {
+            "name": "stormiix/php-eyed3",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Stormiix/php-eyed3.git",
+                "reference": "3eb638907491b8a1b5d341400cb94140f2a80eaa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Stormiix/php-eyed3/zipball/3eb638907491b8a1b5d341400cb94140f2a80eaa",
+                "reference": "3eb638907491b8a1b5d341400cb94140f2a80eaa",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "2.*",
+                "phpunit/phpunit": "6.*"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Stormiix\\EyeD3\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anas Mazouni (Stormiix)",
+                    "email": "hello@stormix.co"
+                }
+            ],
+            "description": "A PHP wrapper for reading and updating ID3 meta data of (e.g.) MP3 files using eyeD3",
+            "keywords": [
+                "eyeD3",
+                "php",
+                "wrapper"
+            ],
+            "time": "2018-05-26T16:47:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "debach/zend-mp3": 20,
+        "stormiix/php-eyed3": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
